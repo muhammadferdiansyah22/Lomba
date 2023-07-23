@@ -70,3 +70,14 @@ void ringkasan(int arr[], int n) {
     if(sekarang > mulai) {
         cout << "-" << sekarang;
     }
+}
+int main(){
+    int  a;
+    cin>>a;
+    int b[a];
+    for(int i = 0; i < a; i++){
+        cin>>b[i];
+    }
+   
+    ringkasan(b,a);
+}
